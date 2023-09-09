@@ -1,14 +1,14 @@
 let count=0;
 
-document.getElemenentById("decreasebtn").onclick=function(){
+document.getElementById("decreasebtn").onclick=function(){
     count-=1;
     document.getElementById("countlabel").innerHTML=count;
 }
-document.getElemenentById("resetbtn").onclick=function(){
+document.getElementById("resetbtn").onclick=function(){
     count=0;
     document.getElementById("countlabel").innerHTML=count;
 }
-document.getElemenentById("increasebtn").onclick=function(){
+document.getElementById("increasebtn").onclick=function(){
     count+=1;
     document.getElementById("countlabel").innerHTML=count;
 }
